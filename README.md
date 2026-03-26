@@ -2,6 +2,11 @@
 
 A responsive blog preview card component built with HTML and CSS.
 
+
+## Links
+
+Repo Link: [https://github.com/HatemRishah/BlogCard.git]
+
 ## Features
 
 - Clean, minimal design
