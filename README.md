@@ -5,6 +5,7 @@ A responsive blog preview card component built with HTML and CSS.
 
 ## Links
 
+Live Site Link: [https://blogcardreview.netlify.app/]
 Repo Link: [https://github.com/HatemRishah/BlogCard.git]
 
 ## Features
