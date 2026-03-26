@@ -60,3 +60,33 @@ footer:hover,
 .card:hover {
   transform: scale(1.05);
 }
+
+/* ========================================= */
+/* Media Queries (Desktop-First Approach)    */
+/* ========================================= */
+
+@media (max-width: 1024px) {
+  .card {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 60vw;
+    margin: 12vh auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 90vw;
+    max-width: 350px;
+    margin: 8vh auto;
+    padding: 16px;
+  }
+  footer:hover,
+  .card:hover {
+    transform: none;
+  }
+}
