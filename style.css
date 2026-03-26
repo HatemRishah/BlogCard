@@ -5,6 +5,7 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-size: 16px;
   font-family: "Figtree", sans-serif;
+  overflow-x: hidden;
 }
 .card {
   background-color: white;
@@ -48,4 +49,14 @@ p {
 }
 footer {
   text-align: center;
+}
+footer,
+.card {
+  transition: transform 0.3s ease;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+footer:hover,
+.card:hover {
+  transform: scale(1.1);
 }
